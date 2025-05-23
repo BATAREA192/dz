@@ -1,4 +1,4 @@
-import function
+import veronika
 
 def main():
     print("Доступные функции:")
@@ -19,7 +19,7 @@ def main():
     elif choice == '4':
         function.convert()
     elif choice == '5':
-        function.veronika()
+        veronika.veronika()
     else:
         print("Неверный выбор. Пожалуйста, введите число от 1 до 5.")
 
